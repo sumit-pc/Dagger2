@@ -8,9 +8,14 @@ import dagger.Provides;
 
 @Module
 public class DiselEngineModule {
+    private int hoursepower;
+
+    public DiselEngineModule(Integer hoursepower){
+        this.hoursepower = hoursepower;
+    }
 
     @Provides
     Engine bindEngine(){
-       return new DiselEngine();
+       return new DiselEngine(hoursepower);
     }
 }

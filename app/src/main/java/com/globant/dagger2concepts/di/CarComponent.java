@@ -4,7 +4,7 @@ import com.globant.dagger2concepts.MainActivity;
 
 import dagger.Component;
 
-@Component(modules = {WheelsModule.class, PetrolEngineModule.class})
+@Component(modules = {WheelsModule.class, DiselEngineModule.class})
 public interface CarComponent {
     //Car getCar();
 

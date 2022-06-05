@@ -1,8 +1,8 @@
-package com.globant.dagger2concepts;
+package com.globant.dagger2concepts.Car;
 
 import javax.inject.Inject;
 
 public class Rims {
 
-    Rims(){}
+    public Rims(){}
 }

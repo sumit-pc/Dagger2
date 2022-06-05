@@ -1,4 +1,4 @@
-package com.globant.dagger2concepts;
+package com.globant.dagger2concepts.Car;
 
 import android.util.Log;
 

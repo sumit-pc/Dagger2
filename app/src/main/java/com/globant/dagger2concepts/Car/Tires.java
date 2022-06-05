@@ -1,12 +1,10 @@
-package com.globant.dagger2concepts;
+package com.globant.dagger2concepts.Car;
 
 import android.util.Log;
 
-import javax.inject.Inject;
-
 public class Tires {
 
-    Tires(){}
+    public Tires(){}
     private static final String TAG = "Car";
 
     public void inflate() {

@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.globant.dagger2concepts.Car.Car;
+import com.globant.dagger2concepts.di.CarComponent;
+import com.globant.dagger2concepts.di.DaggerCarComponent;
+
 import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {

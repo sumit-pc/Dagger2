@@ -2,8 +2,6 @@ package com.globant.dagger2concepts;
 
 import javax.inject.Inject;
 
-public class Engine {
-
-    @Inject
-    Engine(){}
+public interface Engine {
+    void start();
 }
